@@ -6,9 +6,9 @@ import pandas as pd
 
 driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
 
-products=[] #List to store name of the product
-savings=[] #List to store price of the product
-coupon_expiration_date=[] #List to store rating of the product
+products = [] #List to store name of the product
+savings = [] #List to store price of the product
+coupon_expiration_date = [] #List to store rating of the product
 driver.get("https://www.publix.com/savings/all-deals")
 
 content = driver.page_source
